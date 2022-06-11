@@ -63,3 +63,4 @@ target/
 # MacOS specific
 .DS_Store
 
+/data
