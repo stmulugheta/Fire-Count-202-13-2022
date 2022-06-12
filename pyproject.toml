@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sustainlab"
+version = "0.1.0"
+description = "Environment supporting Omdena SustainLab challenge"
+authors = ["Steven Weld <smweld.af@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11" 
+beautifulsoup4 = "^4.11"
+pandas = "^1.4.2"
+Pillow = "^9.1.1"
+pytesseract = "^0.3.9"
+spacy = "^3.3.1"
+opencv-python = "^4.6.0"
+stanza = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+dagshub = "^0.1.8"
+dvc = "^2.10"
+jupyterlab = "=3.4"
+mlflow = "^1.26.1"
+podman = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
