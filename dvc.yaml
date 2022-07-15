@@ -1,0 +1,9 @@
+stages:
+  data_collection:
+    cmd: python src/scripts/data_collection.py --force
+    deps:
+    - src/scripts/data_collection.py
+    params:
+    - data_collection.url
+    outs:
+    - dataflow_demo/metadata

@@ -1,0 +1,10 @@
+data_collection:
+    url: https://www.sasb.org/company-use/sasb-reporters/
+data_preprocessing:
+    alpha: 0.9
+
+modelling:
+    input: 
+
+data_visualization:
+    input:

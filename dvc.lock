@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  data_collection:
+    cmd: python src/scripts/data_collection.py --force
+    deps:
+    - path: src/scripts/data_collection.py
+      md5: e13849c4a06b85187cc80c4dbda654c0
+      size: 2937
+    params:
+      params.yaml:
+        data_collection.url: https://www.sasb.org/company-use/sasb-reporters/
+    outs:
+    - path: dataflow_demo/metadata
+      md5: 57900de29f395c8d8c1bb4015cdcc608.dir
+      size: 268838
+      nfiles: 1
